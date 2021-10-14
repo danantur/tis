@@ -1,0 +1,83 @@
+
+body {
+  display: flex;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.background {
+  background-image: url(../img/USA_Bridges_Brooklyn_Bridge_New_York_City_599955_1920x1200.jpg);
+  background-size: cover;
+  -webkit-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.filter {
+  width: 100%;
+  height: 100%;
+  background: rgba(79, 79, 217, 0.4);
+}
+
+.form {
+  margin: auto;
+  width: 80%;
+}
+
+.title {
+  margin: 10px auto 20px auto;
+
+  height: 49px;
+
+  font-family: NATS, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 15px;
+
+  align-items: center;
+  text-align: center;
+
+  color: #535353;
+}
+
+input[type=text] {
+  border: 1px solid rgba(54, 54, 54, 0.5);
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 52px;
+
+  padding: 13px;
+
+  font-family: Noto Serif, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  align-items: center;
+
+  color: #6F6949;
+}
+
+input[type=button]:hover, a:hover {
+  cursor: pointer;
+}
+
+.info {
+  width: 100%;
+  margin: 7px auto;
+}
+
+.close {
+  width: 25px;
+  height: 25px;
+  background-image: url(../img/Vector.svg);
+  background-size: cover;
+  margin: 20px 20px auto auto;
+}
